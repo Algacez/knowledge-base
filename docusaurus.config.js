@@ -93,6 +93,19 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'aiSidebar',
+            position: 'left',
+            label: 'AI',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'articleSidebar',
+            position: 'left',
+            label: 'Article',
+          },
+
           // {to: '/blog', label: 'Blog', position: 'left'},
           // {
           //   href: 'https://github.com/facebook/docusaurus',
@@ -109,7 +122,15 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                to: '/docs/intro',
+                to: '/docs/docs/intro',
+              },
+              {
+                label: 'AI',
+                to: '/docs/AI/intro',
+              },
+              {
+                label: 'Article',
+                to: '/docs/article/intro',
               },
             ],
           },

@@ -5,6 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import path from 'path';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -51,7 +52,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/algacez/knowledge-base/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/algacez/knowledge-base/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -62,7 +63,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/algacez/knowledge-base/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/algacez/knowledge-base/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -155,9 +156,18 @@ const config = {
               //   to: '/blog',
               // },
               {
+                label: 'My Blog',
+                href: 'https://blog.282994.xyz',
+              },
+              {
+                label: 'X',
+                href: 'https://x.com/wasurede',
+              },
+              {
                 label: 'GitHub',
                 href: 'https://github.com/algacez/knowledge-base',
               },
+              
             ],
           },
         ],

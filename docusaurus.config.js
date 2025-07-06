@@ -5,7 +5,6 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
-import path from 'path';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -139,12 +138,16 @@ const config = {
             title: 'Links',
             items: [
               {
-                label: 'My Blog',
-                href: 'https://blog.282994.xyz',
+                label: 'Notes',
+                href: 'https://blog.282994.xyz/notes',
               },
               {
-                label: 'X',
-                href: 'https://x.com/wasurede',
+                label: 'OpenAI',
+                href: 'https://openai.com',
+              },
+              {
+                label: 'SpaceX',
+                href: 'https://www.spacex.com',
               },
             ],
           },
